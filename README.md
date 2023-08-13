@@ -1,6 +1,6 @@
 **_# Xpenser:-_**
 
- Xpense Tracker app created using ReactJS and REDUX
+ Xpense Tracker WebApp created using ReactJS and REDUX
 
 **_#Deployment Link:-_**
 https://xpenser-management.netlify.app/
