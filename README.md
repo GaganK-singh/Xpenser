@@ -1,10 +1,10 @@
-# Xpens
+**_# Xpenser_**
  Xpense Tracker app created using ReactJS and REDUX
 
-#Deployment Link:-
+**_#Deployment Link:-_**
 https://xpenser-management.netlify.app/
 
-#Project Description:-
+**_#Project Description:-_**
  The Expense Tracker project is a dynamic and user-friendly web application developed using cutting-edge technologies, including ReactJS and Redux. Designed to simplify and enhance personal expense management, this application offers an intuitive, fully responsive user interface and leverages the capabilities of local storage to store user data.
 
 1) **ReactJS and Redux Integration:** The project utilizes the ReactJS library to build a modern and efficient user interface. Redux, a state management library, is seamlessly integrated to manage the application's state, ensuring a smooth and predictable data flow throughout the user experience.
@@ -16,7 +16,7 @@ https://xpenser-management.netlify.app/
 7) **Data Visualization:** The application enhances the user experience by providing visual insights into spending habits.
  
 
-#ScreenShots
+**_#ScreenShots_**
 
 1) Expense List:-
    ![Screenshot (136)](https://github.com/GaganK-singh/Xpenser/assets/41460460/8eddb09a-56d0-4ce3-aed9-25371a0acfa7)
