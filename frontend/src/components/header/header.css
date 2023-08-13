@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");
+
+
+.header-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  font-family: "Dosis", sans-serif;
+  padding: 1.2rem;
+  top: 0;
+}
+
+.header-logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#header-photo {
+  font-size: 2.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header-container {
+    padding: 0.8rem;
+  }
+
+  .header-logo {
+    font-size: 1.4rem;
+    margin-right: 0.6rem;
+  }
+  
+  #header-photo {
+    font-size: 1.8rem;
+  }
+}

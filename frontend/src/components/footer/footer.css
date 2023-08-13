@@ -1,0 +1,39 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-content_icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.2rem;
+}
+
+#footer-icon {
+  font-size: 1.3rem;
+}
+
+.footer-content_content {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    padding: 0.6rem;
+  }
+
+  .footer-content_content {
+    font-size: 0.6rem;
+  }
+
+  #footer-icon {
+    font-size: 1rem;
+  }
+}

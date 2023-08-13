@@ -1,0 +1,68 @@
+.topfold {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+  
+  .searchbar {
+    width: 80em;
+  }
+  
+  .addButton {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container_tag {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    width: 80%;
+  }
+  
+  .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+  }
+  
+  button#addButton {
+    width: fit-content;
+    min-width: 70px;
+    height: 2.4rem;
+    border-radius: 5px;
+    border: 2.5px solid #e0e1e4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  button#addButton:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  button#addButton:active {
+    transform: scale(0.95);
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .topfold {
+      padding-right: 0rem;
+      padding-left: 0rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .input-container_tag {
+      width: 70%;
+    }
+  }
+  
